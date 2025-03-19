@@ -10,6 +10,9 @@
 
 Code Repository for the paper: "**_Structure Is Not Enough: Leveraging Behavior for Neural Network Weight Reconstruction_**" at the ICLR 2025 Workshop on Neural Network Weights as a New Data Modality (WSL Workshop).
 
+
+
+[![DOI](https://zenodo.org/badge/951180931.svg)](https://doi.org/10.5281/zenodo.15051578)
 [![OpenReview](https://img.shields.io/badge/OpenReview-APsHrpqO3W-8c1b13.svg)](https://openreview.net/forum?id=APsHrpqO3W)
 
 ## Abstract
