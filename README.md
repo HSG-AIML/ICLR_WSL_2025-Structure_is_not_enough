@@ -26,11 +26,15 @@ In this work, we demonstrate the importance of incorporating a **behavioral loss
 Our experiments, conducted on three model zoos (SVHN, CIFAR-10, and EuroSAT), show that the combination of structural and behavioral losses outperforms the baseline (structural loss only) in all evaluated tasks. For instance, the reconstructed models achieve test accuracies comparable to the original models, and the generated models exhibit high performance without the need for further fine-tuning. Additionally, we find that the choice of input queries for the behavioral loss is crucial, as queries from a similar distribution to the training data yield the best results. This work highlights the synergy between structural and behavioral signals in weight-space learning and opens new avenues for generating high-performing NN weights efficiently.
 
 <p align="center">
-<img     
- width="512px"
- src="assets/generetive_dstk.png"
- alt="Overview of the generative downstream tasks performance"
-/>
+  <img
+    width="720px"
+    src="assets/generative_dstk.png"
+    alt="Overview of the generative downstream tasks performance"
+  />
+
+ 
+ <em>Figure: Evaluation of the reconstructive and generative downstream tasks, shown as distributions of the test accuracy of different models, depending on whether they are part of the original model zoo, reconstructions of models from that model zoo, or generated models. Each column represents one of our model zoos, while the row show what loss has been used to train the specific hyper-representation model.</em>
+
 </p>
 
 ## Code structure
